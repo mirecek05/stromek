@@ -1,0 +1,31 @@
+﻿<Window x:Class="stromek.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:stromek"
+        mc:Ignorable="d"
+        Title="Stromeček" Height="500" Width="450" ResizeMode="NoResize">
+    <Window.Resources>
+        <ResourceDictionary>
+            <ImageSource x:Key="blue">unnamed-removebg-preview.png</ImageSource>
+            <ImageSource x:Key="red">kulata-ozdoba-motiv-sovy-s-glitry-sklenena-prumer-7-cm-cerveny-lesk_15050-removebg-preview.png</ImageSource>
+            <ImageSource x:Key="gold">vanocni-banka-insignie-2S-removebg-preview.png</ImageSource>
+            <ImageSource x:Key="yellow">unnamed-removebg-preview (1).png</ImageSource>
+        </ResourceDictionary>
+    </Window.Resources>
+    
+    <Grid Margin="0,0,-8,0">
+        <Image HorizontalAlignment="Left" Height="409" Margin="28,37,0,0" VerticalAlignment="Top" Width="384" Source="strom.jpg"/>
+        <Image x:Name="cervena1" HorizontalAlignment="Left" Height="50" Margin="245,186,0,0" VerticalAlignment="Top" Width="50" Source="kulata-ozdoba-motiv-sovy-s-glitry-sklenena-prumer-7-cm-cerveny-lesk_15050-removebg-preview.png"/>
+        <Image x:Name="cervena2" HorizontalAlignment="Left" Height="50" Margin="125,215,0,0" VerticalAlignment="Top" Width="50" Source="kulata-ozdoba-motiv-sovy-s-glitry-sklenena-prumer-7-cm-cerveny-lesk_15050-removebg-preview.png"/>
+        <Image x:Name="modra1" HorizontalAlignment="Left" Height="50" Margin="152,140,0,0" VerticalAlignment="Top" Width="50" Source="unnamed-removebg-preview.png"/>
+        <Image x:Name="modra2" HorizontalAlignment="Left" Height="50" Margin="273,258,0,0" VerticalAlignment="Top" Width="50" Source="unnamed-removebg-preview.png"/>
+        <Image x:Name="zluta2" HorizontalAlignment="Left" Height="50" Margin="125,282,0,0" VerticalAlignment="Top" Width="50" Source="unnamed-removebg-preview (1).png"/>
+        <Image x:Name="zluta1" HorizontalAlignment="Left" Height="50" Margin="201,200,0,0" VerticalAlignment="Top" Width="50" Source="unnamed-removebg-preview (1).png"/>
+        <Image x:Name="zlata2" HorizontalAlignment="Left" Height="50" Margin="229,131,0,0" VerticalAlignment="Top" Width="50" Source="vanocni-banka-insignie-2S-removebg-preview.png"/>
+        <Image x:Name="zlata1" HorizontalAlignment="Left" Height="50" Margin="201,288,0,0" VerticalAlignment="Top" Width="50" Source="vanocni-banka-insignie-2S-removebg-preview.png"/>
+        <Image HorizontalAlignment="Left" Height="124" Margin="152,10,0,0" VerticalAlignment="Top" Width="138" Source="drevena-hvezda-5-x-5-cm-462x388-removebg-preview.png"/>
+
+    </Grid>
+</Window>
